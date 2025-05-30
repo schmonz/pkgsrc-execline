@@ -55,65 +55,70 @@ bin/withstdinas
 include/execline/config.h
 include/execline/execline.h
 lib/libexecline.a
+lib/libexecline.so
+${PLIST.Darwin}lib/libexecline.so.${SHLIBLIFETIME}
+lib/libexecline.so.${SHLIBLIFETIMEMAJOR}
+lib/libexecline.so.${PKGVERSION}
+${PLIST.Darwin}lib/libexecline.so.${WTF}
 lib/pkgconfig/libexecline.pc
-man/man1/background.1
-man/man1/backtick.1
-man/man1/case.1
-man/man1/define.1
-man/man1/dollarat.1
-man/man1/elgetopt.1
-man/man1/elgetpositionals.1
-man/man1/elglob.1
-man/man1/eltest.1
-man/man1/emptyenv.1
-man/man1/envfile.1
-man/man1/exec.1
-man/man1/execline-cd.1
-man/man1/execline-shell.1
-man/man1/execline-startup.1
-man/man1/execline-umask.1
-man/man1/execline.1
-man/man1/execlineb.1
-man/man1/exit.1
-man/man1/export.1
-man/man1/fdblock.1
-man/man1/fdclose.1
-man/man1/fdmove.1
-man/man1/fdreserve.1
-man/man1/fdswap.1
-man/man1/forbacktickx.1
-man/man1/foreground.1
-man/man1/forstdin.1
-man/man1/forx.1
-man/man1/getcwd.1
-man/man1/getpid.1
-man/man1/heredoc.1
-man/man1/homeof.1
-man/man1/if.1
-man/man1/ifelse.1
-man/man1/ifte.1
-man/man1/ifthenelse.1
-man/man1/importas.1
-man/man1/loopwhilex.1
-man/man1/multidefine.1
-man/man1/multisubstitute.1
-man/man1/pipeline.1
-man/man1/piperw.1
-man/man1/posix-cd.1
-man/man1/posix-umask.1
-man/man1/redirfd.1
-man/man1/runblock.1
-man/man1/shift.1
-man/man1/trap.1
-man/man1/tryexec.1
-man/man1/unexport.1
-man/man1/wait.1
-man/man1/withstdinas.1
-man/man7/execline-block.7
-man/man7/execline-components.7
-man/man7/execline-exitcodes.7
-man/man7/execline-grammar.7
-man/man7/execline-pushenv.7
-man/man7/execline-substitute.7
-man/man7/execline-transform.7
-man/man7/execline-why.7
+@comment man/man1/background.1
+@comment man/man1/backtick.1
+@comment man/man1/case.1
+@comment man/man1/define.1
+@comment man/man1/dollarat.1
+@comment man/man1/elgetopt.1
+@comment man/man1/elgetpositionals.1
+@comment man/man1/elglob.1
+@comment man/man1/eltest.1
+@comment man/man1/emptyenv.1
+@comment man/man1/envfile.1
+@comment man/man1/exec.1
+@comment man/man1/execline-cd.1
+@comment man/man1/execline-shell.1
+@comment man/man1/execline-startup.1
+@comment man/man1/execline-umask.1
+@comment man/man1/execline.1
+@comment man/man1/execlineb.1
+@comment man/man1/exit.1
+@comment man/man1/export.1
+@comment man/man1/fdblock.1
+@comment man/man1/fdclose.1
+@comment man/man1/fdmove.1
+@comment man/man1/fdreserve.1
+@comment man/man1/fdswap.1
+@comment man/man1/forbacktickx.1
+@comment man/man1/foreground.1
+@comment man/man1/forstdin.1
+@comment man/man1/forx.1
+@comment man/man1/getcwd.1
+@comment man/man1/getpid.1
+@comment man/man1/heredoc.1
+@comment man/man1/homeof.1
+@comment man/man1/if.1
+@comment man/man1/ifelse.1
+@comment man/man1/ifte.1
+@comment man/man1/ifthenelse.1
+@comment man/man1/importas.1
+@comment man/man1/loopwhilex.1
+@comment man/man1/multidefine.1
+@comment man/man1/multisubstitute.1
+@comment man/man1/pipeline.1
+@comment man/man1/piperw.1
+@comment man/man1/posix-cd.1
+@comment man/man1/posix-umask.1
+@comment man/man1/redirfd.1
+@comment man/man1/runblock.1
+@comment man/man1/shift.1
+@comment man/man1/trap.1
+@comment man/man1/tryexec.1
+@comment man/man1/unexport.1
+@comment man/man1/wait.1
+@comment man/man1/withstdinas.1
+@comment man/man7/execline-block.7
+@comment man/man7/execline-components.7
+@comment man/man7/execline-exitcodes.7
+@comment man/man7/execline-grammar.7
+@comment man/man7/execline-pushenv.7
+@comment man/man7/execline-substitute.7
+@comment man/man7/execline-transform.7
+@comment man/man7/execline-why.7
